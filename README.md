@@ -47,23 +47,19 @@ To run this notebook, you need:
 
 - ArcGIS Pro
 - Spatial Analyst extension
-- A valid geodatabase
-- At least one DEM raster stored inside the geodatabase
+- *A valid File Geodatabase (.gdb)
+- *At least one DEM raster stored inside the geodatabase
 
 ---
 
 ## How to Run
 
 1. Open the notebook in ArcGIS Pro.
-2. Enter the full path to your geodatabase.
-3. Select a DEM from the available list.
-4. Enter the desired grid spacing (in meters).
-5. Enter one or multiple observer heights (comma separated).
-6. Wait for the viewshed results and statistics.
-
-Each height scenario produces:
-- A separate viewshed raster
-- Visibility percentage results printed in the console
+2. Enter the full path to your geodatabase (.gdb).
+3. Select a DEM from the list of rasters *inside the geodatabase*.If your DEM Raster file is stored in one of your local files on your computer please transfer it to a valid geodatabase first.
+5. Enter the desired grid spacing (*in meters).
+6. Enter one or multiple observer heights (*comma separated).
+7. The viewshed results and statistics will be generated automatically.
 
 ---
 
